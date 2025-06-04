@@ -16,6 +16,7 @@ void ProgramManager::Start(const int m_argc, const char** m_argv)
         std::string argv1 = m_argv[1];
         if (std::string::npos != argv1.find("-PLIST:"))
         {
+            stage.RunflwIndPlistStage(m_argc, m_argv)
         }
     }
 }
