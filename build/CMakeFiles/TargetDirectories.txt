@@ -1,0 +1,3 @@
+C:/dev/Flow-Indicator-Tool/build/CMakeFiles/flow_indicator_app.dir
+C:/dev/Flow-Indicator-Tool/build/CMakeFiles/ALL_BUILD.dir
+C:/dev/Flow-Indicator-Tool/build/CMakeFiles/ZERO_CHECK.dir

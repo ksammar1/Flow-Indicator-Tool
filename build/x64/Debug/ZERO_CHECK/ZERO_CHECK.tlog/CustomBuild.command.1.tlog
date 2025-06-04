@@ -1,0 +1,10 @@
+^C:\DEV\FLOW-INDICATOR-TOOL\BUILD\CMAKEFILES\7726CC39229AB8D958958F31C69081F7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/Flow-Indicator-Tool -BC:/dev/Flow-Indicator-Tool/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/Flow-Indicator-Tool/build/FlowIndicatorTool.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

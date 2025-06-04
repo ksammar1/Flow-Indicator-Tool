@@ -1,0 +1,11 @@
+# git ignore list
+*.o
+*.d
+*.exe
+*.ut
+.directory
+.vs
+
+
+
+
