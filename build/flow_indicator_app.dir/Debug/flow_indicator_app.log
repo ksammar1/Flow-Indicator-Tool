@@ -1,2 +1,27 @@
 ﻿  FlowIndicator.cpp
-  flow_indicator_app.vcxproj -> C:\dev\Flow-Indicator-Tool\build\Debug\flow_indicator_app.exe
+C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,56): error C2039: 'string': is not a member of 'std'
+  (compiling source file '../flow_indicator/src/FlowIndicator.cpp')
+      C:\dev\Flow-Indicator-Tool\build\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../flow_indicator/src/FlowIndicator.cpp')
+  
+C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,62): error C2143: syntax error: missing ',' before '&'
+  (compiling source file '../flow_indicator/src/FlowIndicator.cpp')
+  
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,20): error C2664: 'void FlowIndicatorPlistPreCheck::RunflwIndPlistStage(const int,const int)': cannot convert argument 2 from 'std::string' to 'const int'
+      C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,48):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,10):
+      see declaration of 'FlowIndicatorPlistPreCheck::RunflwIndPlistStage'
+      C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,20):
+      while trying to match the argument list '(const int, std::string)'
+  
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(21,9): error C2143: syntax error: missing ';' before '}'
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,12): error C2653: 'ConsoleHelper': is not a class or namespace name
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,83): error C2065: 'argv': undeclared identifier
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,27): error C3861: 'GetFileNameFromCommandLine': identifier not found
+  main.cpp
+  Generating Code...

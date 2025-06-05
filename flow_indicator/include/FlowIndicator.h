@@ -16,7 +16,7 @@ public:
 class FlowIndicatorPlistPreCheck
 {
 public:
-
+    void RunflwIndPlistStage(const int argc,const std::string& argv);
 
 
 };

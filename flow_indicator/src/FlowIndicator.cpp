@@ -13,10 +13,16 @@ void ProgramManager::Start(const int m_argc, const char** m_argv)
     std::string prog;
     if (2 == m_argc)
     {
+        FlowIndicatorPlistPreCheck stage1;
         std::string argv1 = m_argv[1];
         if (std::string::npos != argv1.find("-PLIST:"))
         {
-            stage.RunflwIndPlistStage(m_argc, m_argv)
+            stage1.RunflwIndPlistStage(m_argc, argv1)
         }
     }
 }
+
+
+const std::string askForFlowFilemsg = "Enter name of flow file like this: -FLOW:flow_example.flw";
+//change name it not only for files //put it in string helper
+flowFile = ConsoleHelper::GetFileNameFromCommandLine("-FLOW:", askForFlowFilemsg, argv[1]);
