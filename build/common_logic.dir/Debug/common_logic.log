@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/dev/Flow-Indicator-Tool/CMakeLists.txt
+  FileSystem.cpp
+  Helper.cpp
+  OsService.cpp
+  Generating Code...
+     Creating library C:/dev/Flow-Indicator-Tool/build/Debug/common_logic.lib and object C:/dev/Flow-Indicator-Tool/build/Debug/common_logic.exp
+  common_logic.vcxproj -> C:\dev\Flow-Indicator-Tool\build\Debug\common_logic.dll

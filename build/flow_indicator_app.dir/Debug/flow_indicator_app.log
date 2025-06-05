@@ -18,10 +18,14 @@ C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,20): error C2
       C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,20):
       while trying to match the argument list '(const int, std::string)'
   
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(21,9): error C2143: syntax error: missing ';' before '}'
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,12): error C2653: 'ConsoleHelper': is not a class or namespace name
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,83): error C2065: 'argv': undeclared identifier
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(28,27): error C3861: 'GetFileNameFromCommandLine': identifier not found
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(25,34): error C2511: 'void FlowIndicatorPlistPreCheck::RunflwIndPlistStage(const int &,const std::string &)': overloaded member function not found in 'FlowIndicatorPlistPreCheck'
+      C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(16,7):
+      see declaration of 'FlowIndicatorPlistPreCheck'
+  
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(31,1): error C2065: 'flowFile': undeclared identifier
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(31,12): error C2653: 'ConsoleHelper': is not a class or namespace name
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(31,27): error C3861: 'GetFileNameFromCommandLine': identifier not found
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(34,1): error C2059: syntax error: ']'
+C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(26,1): error C1075: '{': no matching token found
   main.cpp
   Generating Code...
