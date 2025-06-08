@@ -1,31 +1,3 @@
 ﻿  FlowIndicator.cpp
-C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,56): error C2039: 'string': is not a member of 'std'
-  (compiling source file '../flow_indicator/src/FlowIndicator.cpp')
-      C:\dev\Flow-Indicator-Tool\build\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file '../flow_indicator/src/FlowIndicator.cpp')
-  
-C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,62): error C2143: syntax error: missing ',' before '&'
-  (compiling source file '../flow_indicator/src/FlowIndicator.cpp')
-  
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,20): error C2664: 'void FlowIndicatorPlistPreCheck::RunflwIndPlistStage(const int,const int)': cannot convert argument 2 from 'std::string' to 'const int'
-      C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,48):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(19,10):
-      see declaration of 'FlowIndicatorPlistPreCheck::RunflwIndPlistStage'
-      C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(20,20):
-      while trying to match the argument list '(const int, std::string)'
-  
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(25,34): error C2511: 'void FlowIndicatorPlistPreCheck::RunflwIndPlistStage(const int &,const std::string &)': overloaded member function not found in 'FlowIndicatorPlistPreCheck'
-      C:\dev\Flow-Indicator-Tool\flow_indicator\include\FlowIndicator.h(16,7):
-      see declaration of 'FlowIndicatorPlistPreCheck'
-  
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(31,1): error C2065: 'flowFile': undeclared identifier
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(31,12): error C2653: 'ConsoleHelper': is not a class or namespace name
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(31,27): error C3861: 'GetFileNameFromCommandLine': identifier not found
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(34,1): error C2059: syntax error: ']'
-C:\dev\Flow-Indicator-Tool\flow_indicator\src\FlowIndicator.cpp(26,1): error C1075: '{': no matching token found
-  main.cpp
-  Generating Code...
+FlowIndicator.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl ConsoleHelper::GetFileNameFromCommandLine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?GetFileNameFromCommandLine@ConsoleHelper@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@00@Z) referenced in function "public: void __cdecl FlowIndicatorPlistPreCheck::RunflwIndPlistStage(int const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?RunflwIndPlistStage@FlowIndicatorPlistPreCheck@@QEAAXAEBHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+C:\dev\Flow-Indicator-Tool\build\Debug\flow_indicator_app.exe : fatal error LNK1120: 1 unresolved externals
